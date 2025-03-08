@@ -5,6 +5,8 @@ import Watch from "./components/Watch";
 import { Provider } from "react-redux";
 import store from "./utils/appStore";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import DemoPage from "./components/Demo";
+import Reference from "./components/Reference";
 function App() {
   return (
     <Provider store={store}><div className="App">
@@ -24,6 +26,9 @@ const appRouter= createBrowserRouter([
     },{
       path:'/watch',
       element: <Watch />
+    },{
+      path:'/demo',
+      element:<><DemoPage /><Reference /></>
     }]
   }
 ])
