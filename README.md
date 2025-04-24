@@ -5,5 +5,5 @@
 - Implemented search functionality with debouncing feature. Increased the search performance functionality.
 
 
-https://github.com/user-attachments/assets/e217debc-6449-4140-8b08-966ca9fb46b3
+https://github.com/user-attachments/assets/4b45bd97-fff1-455d-b8e9-33dfb21acd64
 
